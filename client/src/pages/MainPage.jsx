@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Carousel } from 'antd';
 import NodeJsImg from '../style/imgs/node.png'
-import ReactImg from '../style/imgs/logo192.png'
+import ReactImg from '../style/imgs/logo512.png'
 import MongoDBImg from '../style/imgs/mongo.png'
 import AWSImg from '../style/imgs/aws1.png'
 import JenkinsImg from '../style/imgs/jenkins.png'
@@ -15,16 +15,16 @@ export default class AboutMe extends Component {
                     <img src={NodeJsImg} width="60%" height="auto" />
                     </div>
                     <div className="main-div">
-                    <img src={ReactImg} />
+                    <img src={ReactImg} width="30%" />
                     </div>
                     <div className="main-div">
-                    <img src={AWSImg} width="60%"/>
+                    <img src={AWSImg} width="40%"/>
                     </div>
                     <div className="main-div">
-                    <img src={MongoDBImg} />
+                    <img src={MongoDBImg} width="105%"/>
                     </div>
                     <div className="main-div">
-                    <img src={JenkinsImg} width="60%"/>
+                    <img src={JenkinsImg} width="50%"/>
                     </div>
                 </Carousel>
             </div>
