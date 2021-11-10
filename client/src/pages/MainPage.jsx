@@ -12,19 +12,19 @@ export default class AboutMe extends Component {
             <div className="main">
                 <Carousel autoplay>
                     <div className="main-div">
-                    <img src={NodeJsImg} width="60%" height="auto" />
+                    <img src={NodeJsImg} width="60%" height="auto" alt="zemei" />
                     </div>
                     <div className="main-div">
-                    <img src={ReactImg} width="30%" />
+                    <img src={ReactImg} width="30%" alt="zemei" />
                     </div>
                     <div className="main-div">
-                    <img src={AWSImg} width="40%"/>
+                    <img src={AWSImg} width="40%" alt="zemei" />
                     </div>
                     <div className="main-div">
-                    <img src={MongoDBImg} width="105%"/>
+                    <img src={MongoDBImg} width="105%" alt="zemei" />
                     </div>
                     <div className="main-div">
-                    <img src={JenkinsImg} width="50%"/>
+                    <img src={JenkinsImg} width="50%" alt="zemei" />
                     </div>
                 </Carousel>
             </div>

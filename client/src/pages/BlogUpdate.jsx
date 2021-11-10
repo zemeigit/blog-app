@@ -87,7 +87,6 @@ class BlogUpdate extends Component {
 
                  <p>Description: </p>
                     <TextArea rows={1} 
-                        value={description}
                         showCount maxLength={100}
                         value={description}
                         onChange={this.handleChangeInputDes}

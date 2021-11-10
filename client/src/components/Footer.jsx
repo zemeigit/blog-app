@@ -9,7 +9,7 @@ class Footer extends Component {
                 <span className="intro">
                     <p className="top-footer">Create by React, NodeJS, MongoDB, Express, Antd</p>
                     <p><a className="git" href="https://github.com/zemeigit"><GithubOutlined /></a>
-                    zemei.com</p>
+                    codeLearning.com</p>
                 </span>
             </div>
         )

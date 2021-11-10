@@ -12,7 +12,7 @@ class Header extends Component {
                     <img src={logo} width="50" height="50" alt="zemei" />
                     </Link>
                     <Link to="/" className="navbar-brand">
-                        Zemei's Study Area
+                        Dev's Study Area
                     </Link>
                     
                     <Link to="/blog/list" className="nav-link">

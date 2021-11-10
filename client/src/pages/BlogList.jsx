@@ -7,7 +7,6 @@ class BlogList extends Component {
         super(props)
         this.state = {
             blog: [],
-            columns: [],
             isLoading: false,
         }
     }
@@ -25,12 +24,6 @@ class BlogList extends Component {
 
     render() {
         const { blog, isLoading } = this.state
-        console.log('->', blog)
-
-        let showTable = true
-        if (!blog.length) {
-            showTable = false
-        }
 
         const deleteBlog = (blog) => {
             if (
