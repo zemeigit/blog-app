@@ -51,7 +51,7 @@ class BlogInsert extends Component {
     }
 
     render() {
-        const { title, time, description, content } = this.state
+        const { title, description, content } = this.state
         const { TextArea } = Input;
         return (
             <div className="list">
